@@ -1,0 +1,39 @@
+.records-container {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: inherit;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .result-title {
+    color: #515151;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  
+  .profile-records h3 {
+    font-size: 0.5em;
+    color: #1890FF;
+    padding: 0;
+    margin: 3px 3px 10px 5px;
+  }
+  
+  .result-description {
+    padding: 0;
+    font-size: 0.8em;
+    color: #515151;
+    margin: 3px 5px;
+  }
+  
+  .link {
+    color: blue;
+  }
