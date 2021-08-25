@@ -1,23 +1,20 @@
-.home-container {
+.main-container {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.main-container h1 {
     font-size: 48px;
-    padding: 40px 66px;
-    height: 100vh;
-}
-
-.welcome-message h1{
-    font-size: 1em;
-    line-height: 64px;
-}
-
-.welcome-message p{
     font-weight: bold;
-    line-height: 40px;
-    font-size: 0.5em;
+    color: #000000;
+}
+
+.main-container p {
+    font-size: 24px;
+    font-weight: bold;
     color: #7E7E7E;
 }
 
-.start-button {
-    color: #fff;
-    padding: 8px 18px;
-    font-size: 0.4em;
+.main-container button {
+    margin-top: 27px;
 }

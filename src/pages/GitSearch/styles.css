@@ -1,69 +1,71 @@
-.user-search-container {
-    font-size: 38px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 20px;
-  }
+.search-container {
+  height: 270px;
+  width: auto;
+  margin: 54px 90px 0 90px;
+  background-color: #e6f7ff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 54px;
+  margin-left: 30px;
+}
+
+.search-container input {
+  width: 298px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  margin-left: 30px;
+  margin-top: 12px;
+  padding-left: 17px;
+}
+
+.search-container input::placeholder {
+  height: 24px;
+  margin-top: 10px;
+}
+
+.search-container button {
+  margin-top: 24px;
+  margin-left: 30px;
+}
+
+.search-result {
+  display: flex;
   
-  .search-containerr h1 {
-    color: #262626;
-    font-weight: 700px;
-    font-size: 1em;
-    line-height: 48px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .search-container {
-    height: 240px;
-    justify-self: self-start;
-    margin: 10px 90px;
-    padding: 40px;
-    display: flex;
-    background-color: #e6f7ff;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 16px;
-  }
-  
-  .form-container {
-    width: 540px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .search-input {
-    background-color: #fff;
-    border: 1px solid #d9d9d9;
-    border-radius: 4px;
-    font-size: 16px;
-    height: 40px;
-    width: 320px;
-    padding-left: 20px;
-    margin-bottom: 25px;
-  }
-  
-  .search-input::placeholder {
-    color: #d3cccc;
-  }
-  
-  .search-button {
-    font-size: 16px;
-    line-height: 24px;
-    height: 40px;
-    width: 101px;
-    margin-bottom: 35px;
-    padding: 8px 16px;
-    color: #fff;
-  }
-  
-  /* @media (min-width: 576px) {
-      .search-input {
-          width: 480px;
-      }
-  } */
+  height: 334px;
+  width: auto;
+  margin: 54px 90px 0 90px;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+}
+
+.imagem-search img{
+  width: 247px;
+  height: 247px;
+  margin-left: 38px;
+  margin-top: 43px;
+}
+
+.form-search {
+  width: 100%;
+  height: 247px;
+  border-radius: 6px;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 43px 35px 44px 29px;
+}
+
+.form-search h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1890FF;
+  margin: 8px 0 19px 14px;
+}
